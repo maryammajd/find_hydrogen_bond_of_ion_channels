@@ -1,3 +1,5 @@
+This script needs installation of GROMACS software.
+
 To find the hydrogen bonds formed in an MD simulation, we need to have some files as the input. First, copy the .gro file of the model in the input folder and change the name to source_model.gro (you can download the pdb file of the protein and convert it to gro file using GROMACS). 
 Then, create a csv file containing data about the simulations you want to derive the hydrogen bonds of.Each line contains the data about one simulation. The first line should contain the source simulation.
  Pay attention that the file should have the following format. 
